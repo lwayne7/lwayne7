@@ -3,8 +3,9 @@
 # 👋 Hi, I'm Wayne
 
 <p>
-  <a href="https://github.com/lwayne7"><img src="https://img.shields.io/github/followers/lwayne7?label=Followers&style=social" alt="GitHub followers"></a>
+  <a href="https://github.com/lwayne7?tab=followers"><img src="https://img.shields.io/github/followers/lwayne7?label=Followers&style=social" alt="GitHub followers"></a>
   <img src="https://komarev.com/ghpvc/?username=lwayne7&color=blueviolet&style=flat-square" alt="Profile views">
+  <a href="https://github.com/lwayne7/low-code-form"><img src="https://img.shields.io/github/stars/lwayne7/low-code-form?style=social" alt="Stars"></a>
 </p>
 
 **🎓 Master's Student @ Shanghai University | 💻 Frontend Developer | 🚀 React Enthusiast**
@@ -36,6 +37,7 @@ const wayne = {
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-5-433E38?style=for-the-badge&logo=react&logoColor=white)
 ![Ant Design](https://img.shields.io/badge/Ant_Design-6-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-4-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 
 ### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -51,60 +53,73 @@ const wayne = {
 
 ## 🌟 Featured Project
 
-<a href="https://github.com/lwayne7/low-code-form">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lwayne7&repo=low-code-form&theme=tokyonight&hide_border=true" />
-</a>
+<table>
+<tr>
+<td width="50%">
 
-### 🏗️ Low-Code Form Builder
+### 🏗️ [Low-Code Form Builder](https://github.com/lwayne7/low-code-form)
 
-> An enterprise-grade visual form builder with drag-and-drop, nested containers, and code export.
+[![Repo](https://img.shields.io/badge/GitHub-low--code--form-181717?style=flat-square&logo=github)](https://github.com/lwayne7/low-code-form)
+[![Demo](https://img.shields.io/badge/Demo-Vercel-000000?style=flat-square&logo=vercel)](https://low-code-form.vercel.app)
+[![CI](https://img.shields.io/github/actions/workflow/status/lwayne7/low-code-form/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lwayne7/low-code-form/actions)
 
-| Metric | Achievement |
-|--------|------------|
-| 🎯 **FPS** | 35 → 55 (+57%) |
-| 💾 **Memory** | 80MB → 40MB (-50%) |
-| 🧪 **Tests** | 120+ (Unit + E2E + Bench) |
-| 📊 **Lighthouse** | ≥85 |
+An enterprise-grade visual form builder with drag-and-drop, nested containers, and code export.
 
-**Key Features:**
-- 🎨 Visual drag-and-drop form building
-- 📦 Infinite nested containers
-- ⚡ Virtual scrolling for 1000+ components
-- 🔒 XSS-safe expression engine
-- 🔌 Plugin architecture & Command pattern
+**Tech:** React 19 · TypeScript 5.9 · Zustand · Zod · Vite 7
 
-## 📊 GitHub Stats
+</td>
+<td width="50%">
 
-<div align="center">
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-  </picture>
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=default&hide_border=true&cache_seconds=1800"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-  </picture>
+### 📊 Performance Achievements
 
-</div>
+| Metric | Before | After | Improvement |
+|--------|--------|-------|-------------|
+| 🎯 FPS | 35 | 55 | **+57%** |
+| 💾 Memory | 80MB | 40MB | **-50%** |
+| ⏱️ First Paint | 3s | 1.5s | **-50%** |
+
+**Quality:** 103+ Unit Tests · 21+ E2E · 10+ Benchmarks
+
+</td>
+</tr>
+</table>
+
+### ✨ Key Highlights
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=lwayne7&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-  </a>
+
+| 🎨 Visual Building | ⚡ Performance | 🔒 Security | 🧪 Testing |
+|:--:|:--:|:--:|:--:|
+| Drag & Drop | Virtual Scroll | XSS Prevention | 120+ Tests |
+| Nested Containers | Custom Collision | AST Sandbox | Lighthouse CI |
+| Component Library | Patch-based Undo | CSP Headers | E2E Coverage |
+
 </div>
 
-## 🏆 GitHub Trophies
+### 🏛️ Architecture Patterns
 
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=lwayne7&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
-  </a>
-</div>
-</div>
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     Low-Code Form Builder                    │
+├──────────────┬──────────────┬──────────────┬────────────────┤
+│  EventBus    │   Plugins    │   Commands   │  Branded Types │
+│  Pub/Sub     │  Lifecycle   │  Undo/Redo   │  Type Safety   │
+├──────────────┴──────────────┴──────────────┴────────────────┤
+│                    Zod Runtime Validation                    │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## 📈 Contributions
+
+<!--START_SECTION:activity-->
+🔥 **102+ Contributions** since Dec 2024
+
+Recent highlights:
+- 🏗️ Built enterprise-grade low-code form builder
+- ⚡ Optimized performance for 1000+ components
+- 🧪 Established complete testing pyramid (Unit + E2E + Bench)
+- 🔌 Implemented plugin architecture with EventBus & Command pattern
+<!--END_SECTION:activity-->
 
 ## 📫 Connect with Me
 
