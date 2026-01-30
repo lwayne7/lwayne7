@@ -98,16 +98,34 @@ An enterprise-grade visual form builder with drag-and-drop, nested containers, a
 
 ### 🏛️ Architecture Patterns
 
+<div align="center">
+
+```mermaid
+graph TB
+    subgraph Core["🏗️ Low-Code Form Builder"]
+        direction LR
+        A["📡 EventBus<br/>Pub/Sub"] 
+        B["🔌 Plugins<br/>Lifecycle"]
+        C["⏪ Commands<br/>Undo/Redo"]
+        D["🔷 Branded Types<br/>Type Safety"]
+    end
+    
+    subgraph Foundation["Foundation Layer"]
+        E["✅ Zod Runtime Validation"]
+    end
+    
+    Core --> Foundation
+    
+    style Core fill:#1a1b27,stroke:#7aa2f7,stroke-width:2px
+    style Foundation fill:#1a1b27,stroke:#9ece6a,stroke-width:2px
+    style A fill:#2a2b37,stroke:#bb9af7,color:#fff
+    style B fill:#2a2b37,stroke:#7dcfff,color:#fff
+    style C fill:#2a2b37,stroke:#ff9e64,color:#fff
+    style D fill:#2a2b37,stroke:#73daca,color:#fff
+    style E fill:#2a2b37,stroke:#9ece6a,color:#fff
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     Low-Code Form Builder                    │
-├──────────────┬──────────────┬──────────────┬────────────────┤
-│  EventBus    │   Plugins    │   Commands   │  Branded Types │
-│  Pub/Sub     │  Lifecycle   │  Undo/Redo   │  Type Safety   │
-├──────────────┴──────────────┴──────────────┴────────────────┤
-│                    Zod Runtime Validation                    │
-└─────────────────────────────────────────────────────────────┘
-```
+
+</div>
 
 ## 📈 Contributions
 
