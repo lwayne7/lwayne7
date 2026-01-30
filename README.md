@@ -76,18 +76,34 @@ const wayne = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=default&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1800"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
+  </picture>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=default&hide_border=true&cache_seconds=1800"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+  </picture>
+
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lwayne7&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=lwayne7&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  </a>
 </div>
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lwayne7&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=lwayne7&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
+  </a>
+</div>
 </div>
 
 ## 📫 Connect with Me
