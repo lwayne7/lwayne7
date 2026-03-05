@@ -1,17 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi%2C%20I'm%20Wayne&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Frontend%20Developer%20%7C%20Full-Stack%20Explorer&descSize=16&descAlignY=52" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%2C%20I'm%20Wayne&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=30" width="100%"/>
 
-<p>
-  <a href="https://github.com/lwayne7?tab=followers"><img src="https://img.shields.io/github/followers/lwayne7?label=Followers&style=social" alt="GitHub followers"></a>
-  <img src="https://komarev.com/ghpvc/?username=lwayne7&color=blueviolet&style=flat-square" alt="Profile views">
-</p>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&random=false&width=500&lines=Frontend+Developer+%F0%9F%92%BB;Full-Stack+Explorer+%F0%9F%9A%80;React+%26+TypeScript+Enthusiast;Performance+Optimization+Lover+%E2%9A%A1" alt="Typing SVG" /></a>
 
-**Master's Student @ Shanghai University | React & TypeScript | Full-Stack with NestJS**
+<br/>
+
+<a href="https://github.com/lwayne7?tab=followers"><img src="https://img.shields.io/github/followers/lwayne7?label=Followers&style=social" alt="GitHub followers"></a>&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=lwayne7&color=blueviolet&style=flat-square" alt="Profile views">
+
+<br/><br/>
+
+**`M.S. @ Shanghai University`** · **`React & TypeScript`** · **`Full-Stack with NestJS`**
 
 </div>
 
-## About Me
+<br/>
+
+## &nbsp;About Me
 
 ```javascript
 const wayne = {
@@ -27,87 +33,96 @@ const wayne = {
 };
 ```
 
-## Tech Stack
+<br/>
+
+## &nbsp;Tech Stack
 
 <div align="center">
 
-**Frontend**
+<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vite&theme=dark" alt="Frontend" /><br/>
+<img src="https://skillicons.dev/icons?i=nestjs,nodejs,express,postgres,sqlite&theme=dark" alt="Backend" /><br/>
+<img src="https://skillicons.dev/icons?i=vitest,github,githubactions,vercel&theme=dark" alt="DevOps" /><br/>
 
-![React](https://img.shields.io/badge/React-18/19-61DAFB?style=flat-square&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Taro](https://img.shields.io/badge/Taro-4-0969da?style=flat-square)
-![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Ant Design](https://img.shields.io/badge/Ant_Design-6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
-![NutUI](https://img.shields.io/badge/NutUI-React-FA2C19?style=flat-square)
+<br/>
 
-**Backend & Infra**
-
-![NestJS](https://img.shields.io/badge/NestJS-11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
-
-**Testing & DevOps**
-
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<img src="https://img.shields.io/badge/Taro-4-0969da?style=for-the-badge" alt="Taro"/>
+<img src="https://img.shields.io/badge/Zustand-433E38?style=for-the-badge" alt="Zustand"/>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query"/>
+<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" alt="Ant Design"/>
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO"/>
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod"/>
 
 </div>
 
-## Featured Projects
+<br/>
+
+## &nbsp;Featured Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [FormCraft - Low-Code Form Builder](https://github.com/lwayne7/low-code-form)
+<h3 align="center"><a href="https://github.com/lwayne7/low-code-form">FormCraft</a></h3>
+<p align="center"><strong>Enterprise Low-Code Form Builder</strong></p>
 
-[![Demo](https://img.shields.io/badge/Live_Demo-Vercel-000?style=flat-square&logo=vercel)](https://low-code-form.vercel.app)
-[![CI](https://img.shields.io/github/actions/workflow/status/lwayne7/low-code-form/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lwayne7/low-code-form/actions)
+<div align="center">
 
-Enterprise-grade visual form builder with **drag-and-drop**, **nested containers**, component linkage rules, **i18n** (zh/en), and React / JSON Schema code export. PWA offline support.
+[![Demo](https://img.shields.io/badge/Live_Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://low-code-form.vercel.app)
+[![CI](https://img.shields.io/github/actions/workflow/status/lwayne7/low-code-form/ci.yml?branch=main&style=for-the-badge&label=CI)](https://github.com/lwayne7/low-code-form/actions)
 
-`React 19` `TypeScript 5.9` `Zustand` `Zod` `@dnd-kit` `Web Worker` `Vite 7`
+</div>
 
-**Highlights:**
-- Custom multi-layer collision detection (success rate 78% → **98%+**, false positives **-80%**)
-- Virtual scroll + memo for 1000+ components (FPS 35 → **55**, memory **-50%**)
-- Immer-style patch undo/redo: history data **-95%** (373KB → 18KB), 50-step support
-- AST expression engine (recursive descent parser) preventing XSS
-- **131 unit + 22 E2E + 11 benchmark** tests, Lighthouse CI ≥ 80
+Visual form builder with **drag-and-drop**, **nested containers**, component linkage, **i18n**, React / JSON Schema export, and **PWA** offline support.
+
+<p align="center">
+<code>React 19</code> <code>TypeScript 5.9</code> <code>Zustand</code> <code>Zod</code> <code>@dnd-kit</code> <code>Web Worker</code>
+</p>
+
+| Metric | Result |
+|:--|:--|
+| Drag accuracy | 78% → **98%+** |
+| FPS (1K components) | 35 → **55** (+57%) |
+| Memory usage | 80MB → **40MB** (-50%) |
+| Undo history size | 373KB → **18KB** (-95%) |
+| Test coverage | **131** unit + **22** E2E + **11** bench |
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### [EasyStay - Hotel Booking Platform](https://github.com/lwayne7/hotel-mobile-taro)
+<h3 align="center"><a href="https://github.com/lwayne7/hotel-mobile-taro">EasyStay</a></h3>
+<p align="center"><strong>Full-Stack Hotel Booking Platform</strong></p>
 
-[![Admin Demo](https://img.shields.io/badge/Admin_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-management-eight-navy.vercel.app)
-[![Mobile Demo](https://img.shields.io/badge/Mobile_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-mobile-taro.vercel.app)
+<div align="center">
 
-Full-stack hotel booking system: **cross-platform mobile** (H5 / WeChat Mini Program / RN) + **admin dashboard** with real-time WebSocket notifications.
+[![Admin](https://img.shields.io/badge/Admin_Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://hotel-management-eight-navy.vercel.app)
+[![Mobile](https://img.shields.io/badge/Mobile_Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://hotel-mobile-taro.vercel.app)
 
-`Taro 4` `React 18/19` `NestJS 11` `TypeORM` `PostgreSQL` `WebSocket` `SSE`
+</div>
 
-**Highlights:**
-- Taro 4 single codebase → H5 / WeChat Mini Program / React Native
-- SSE + polling dual-channel real-time price updates with auto-reconnect
-- WebSocket notifications: user-level targeting + role-based broadcast
-- TanStack Query infinite scroll + Zustand cross-platform persistence
-- JWT + Passport multi-role auth, virtual scroll for 10K+ hotel listings
+**Cross-platform mobile** (H5 / WeChat Mini Program / RN) + **admin dashboard** with real-time WebSocket notifications.
 
-> Repos: [hotel-mobile-taro](https://github.com/lwayne7/hotel-mobile-taro) (mobile) · [hotel-management](https://github.com/lwayne7/hotel-management) (backend + admin)
+<p align="center">
+<code>Taro 4</code> <code>React 18/19</code> <code>NestJS 11</code> <code>TypeORM</code> <code>PostgreSQL</code>
+</p>
+
+| Feature | Detail |
+|:--|:--|
+| Cross-platform | H5 + Mini Program + RN |
+| Real-time prices | SSE + polling dual-channel |
+| Push notifications | WebSocket (user + role level) |
+| Data layer | TanStack Query + Zustand |
+| Auth | JWT + Passport multi-role |
+
+<p align="center">
+<a href="https://github.com/lwayne7/hotel-mobile-taro"><code>mobile</code></a>&nbsp;·&nbsp;<a href="https://github.com/lwayne7/hotel-management"><code>backend + admin</code></a>
+</p>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>Other Repositories</b></summary>
+<summary>&nbsp;<b>Other Repositories</b></summary>
 <br>
 
 | Repository | Description | Tech |
@@ -117,7 +132,9 @@ Full-stack hotel booking system: **cross-platform mobile** (H5 / WeChat Mini Pro
 
 </details>
 
-## GitHub Stats
+<br/>
+
+## &nbsp;GitHub Stats
 
 <div align="center">
 
@@ -125,11 +142,23 @@ Full-stack hotel booking system: **cross-platform mobile** (H5 / WeChat Mini Pro
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=lwayne7&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
 </a>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lwayne7&theme=tokyonight" width="100%" alt="Contribution Graph"/>
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lwayne7&theme=tokyo-night&hide_border=true&bg_color=00000000" width="100%" alt="Contribution Graph"/>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake-dark.svg" width="100%" />
+</picture>
 
 </div>
 
-## Connect
+<br/>
+
+## &nbsp;Connect
 
 <div align="center">
 
@@ -139,5 +168,5 @@ Full-stack hotel booking system: **cross-platform mobile** (H5 / WeChat Mini Pro
 </div>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 </div>
