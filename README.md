@@ -18,12 +18,12 @@ const wayne = {
   education: "M.S. in Electronic Information @ Shanghai University (2024-2027)",
   focus: ["React Ecosystem", "Cross-Platform Dev", "Performance Optimization"],
   stack: {
-    frontend:  ["React 18/19", "TypeScript", "Taro 4", "Zustand", "TanStack Query"],
-    backend:   ["NestJS 11", "Express", "TypeORM", "PostgreSQL", "JWT + Passport"],
-    realtime:  ["WebSocket (Socket.IO)", "SSE"],
-    testing:   ["Vitest", "Playwright", "Lighthouse CI"],
-    tools:     ["Vite 7", "GitHub Actions", "Vercel"],
-  },
+    frontend: ["React 18/19", "TypeScript", "Taro 4", "Zustand", "TanStack Query"],
+    backend:  ["NestJS 11", "Express", "TypeORM", "PostgreSQL", "JWT + Passport"],
+    realtime: ["WebSocket (Socket.IO)", "SSE"],
+    testing:  ["Vitest", "Playwright", "Lighthouse CI"],
+    tools:    ["Vite 7", "GitHub Actions", "Vercel"]
+  }
 };
 ```
 
@@ -35,11 +35,12 @@ const wayne = {
 
 ![React](https://img.shields.io/badge/React-18/19-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Taro](https://img.shields.io/badge/Taro-4-0969da?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz48L3N2Zz4=&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square&logo=react&logoColor=white)
+![Taro](https://img.shields.io/badge/Taro-4-0969da?style=flat-square)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Ant Design](https://img.shields.io/badge/Ant_Design-6-0170FE?style=flat-square&logo=antdesign&logoColor=white)
+![NutUI](https://img.shields.io/badge/NutUI-React-FA2C19?style=flat-square)
 
 **Backend & Infra**
 
@@ -69,15 +70,15 @@ const wayne = {
 [![Demo](https://img.shields.io/badge/Live_Demo-Vercel-000?style=flat-square&logo=vercel)](https://low-code-form.vercel.app)
 [![CI](https://img.shields.io/github/actions/workflow/status/lwayne7/low-code-form/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lwayne7/low-code-form/actions)
 
-Enterprise-grade visual form builder with **drag-and-drop**, **nested containers**, component linkage rules, **i18n**, and React / JSON Schema code export.
+Enterprise-grade visual form builder with **drag-and-drop**, **nested containers**, component linkage rules, **i18n** (zh/en), and React / JSON Schema code export. PWA offline support.
 
 `React 19` `TypeScript 5.9` `Zustand` `Zod` `@dnd-kit` `Web Worker` `Vite 7`
 
 **Highlights:**
-- Custom multi-layer collision detection algorithm (success rate 78% → **98%+**)
-- Virtual scroll + memo optimization for 1000+ components (FPS 35 → **55**, mem -50%)
-- Patch-based undo/redo: history data **-95%** (373KB → 18KB)
-- AST-based expression engine (recursive descent parser) preventing XSS
+- Custom multi-layer collision detection (success rate 78% → **98%+**, false positives **-80%**)
+- Virtual scroll + memo for 1000+ components (FPS 35 → **55**, memory **-50%**)
+- Immer-style patch undo/redo: history data **-95%** (373KB → 18KB), 50-step support
+- AST expression engine (recursive descent parser) preventing XSS
 - **131 unit + 22 E2E + 11 benchmark** tests, Lighthouse CI ≥ 80
 
 </td>
@@ -85,19 +86,21 @@ Enterprise-grade visual form builder with **drag-and-drop**, **nested containers
 
 ### [EasyStay - Hotel Booking Platform](https://github.com/lwayne7/hotel-mobile-taro)
 
-[![Management](https://img.shields.io/badge/Admin_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-management-eight-navy.vercel.app)
-[![Mobile](https://img.shields.io/badge/Mobile_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-mobile-taro.vercel.app)
+[![Admin Demo](https://img.shields.io/badge/Admin_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-management-eight-navy.vercel.app)
+[![Mobile Demo](https://img.shields.io/badge/Mobile_Demo-Vercel-000?style=flat-square&logo=vercel)](https://hotel-mobile-taro.vercel.app)
 
-Full-stack hotel booking platform: **cross-platform mobile app** (H5 / WeChat Mini Program / RN) + **admin management dashboard** with real-time notifications.
+Full-stack hotel booking system: **cross-platform mobile** (H5 / WeChat Mini Program / RN) + **admin dashboard** with real-time WebSocket notifications.
 
 `Taro 4` `React 18/19` `NestJS 11` `TypeORM` `PostgreSQL` `WebSocket` `SSE`
 
 **Highlights:**
-- Taro 4 single codebase → H5, WeChat Mini Program, React Native
-- SSE + polling dual-channel real-time price updates
-- WebSocket push notifications (user-level targeting + role broadcast)
-- TanStack Query infinite scroll + Zustand persistent state
-- JWT + Passport multi-role auth (merchant / admin), virtual scroll for 10K+ listings
+- Taro 4 single codebase → H5 / WeChat Mini Program / React Native
+- SSE + polling dual-channel real-time price updates with auto-reconnect
+- WebSocket notifications: user-level targeting + role-based broadcast
+- TanStack Query infinite scroll + Zustand cross-platform persistence
+- JWT + Passport multi-role auth, virtual scroll for 10K+ hotel listings
+
+> Repos: [hotel-mobile-taro](https://github.com/lwayne7/hotel-mobile-taro) (mobile) · [hotel-management](https://github.com/lwayne7/hotel-management) (backend + admin)
 
 </td>
 </tr>
@@ -109,7 +112,6 @@ Full-stack hotel booking platform: **cross-platform mobile app** (H5 / WeChat Mi
 
 | Repository | Description | Tech |
 |:--|:--|:--|
-| [hotel-management](https://github.com/lwayne7/hotel-management) | Hotel admin dashboard + NestJS backend API | React 19, NestJS, TypeORM, PostgreSQL |
 | [hotel-mobile](https://github.com/lwayne7/hotel-mobile) | Lightweight H5-only hotel booking app | React 19, Vite 7, Ant Design 6 |
 | [Digital-watermarking](https://github.com/lwayne7/Digital-watermarking) | Digital watermarking algorithms | C++ |
 
@@ -119,8 +121,11 @@ Full-stack hotel booking platform: **cross-platform mobile app** (H5 / WeChat Mi
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" alt="GitHub Stats"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=6" alt="Top Languages"/>
+<a href="https://github.com/lwayne7">
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=lwayne7&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
+</a>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lwayne7&theme=tokyonight" width="100%" alt="Contribution Graph"/>
 
 </div>
 
