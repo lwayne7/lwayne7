@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%2C%20I'm%20Wang%20Lang%20(%E7%8E%8B%E7%90%85)&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=32" width="100%"/>
+<img src="./assets/header-banner.svg" alt="Header Banner" width="100%"/>
+
+<br/>
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&random=false&width=620&lines=Full-Stack+%26+AI+Application+Engineer+%F0%9F%9A%80;Building+High-Performance+Web+Systems+%E2%9A%A1;LLM+Agent+Workflows+%26+MCP+Tooling+%F0%9F%A4%96;Low-Code+Engine+Architecture+%F0%9F%9B%A0%EF%B8%8F;Resilient+Backend+with+NestJS+%26+Transactions+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" /></a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/lwayne7?label=Followers&style=social)](https://github.com/lwayne7?tab=followers)&nbsp;&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/lwayne7?label=Followers&style=flat-square&logo=github&color=58a6ff)](https://github.com/lwayne7?tab=followers)&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=lwayne7&color=blueviolet&style=flat-square" alt="Profile views">&nbsp;&nbsp;
 [![Master](https://img.shields.io/badge/Master-Shanghai%20University-blue?style=flat-square&logo=academia&logoColor=white)](https://www.shu.edu.cn)&nbsp;&nbsp;
 [![GPA](https://img.shields.io/badge/GPA-3.7%20%2F%204.0-success?style=flat-square)](https://github.com/lwayne7)&nbsp;&nbsp;
@@ -25,7 +27,7 @@
 
 ```typescript
 const engineer = {
-  name: "Wang Lang (王琅)",
+  name: "lwayne",
   role: "Full-Stack & AI Application Engineer",
   education: {
     school: "Shanghai University (上海大学)",
@@ -182,26 +184,16 @@ const engineer = {
 <div align="center">
 
 <a href="https://github.com/lwayne7">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=lwayne7&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
+  <img height="180" src="https://streak-stats.demolab.com/?user=lwayne7&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak"/>
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/lwayne7">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=lwayne7&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000" alt="Wang Lang's GitHub Stats" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lwayne7&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" />
-</a>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lwayne7&theme=tokyo-night&hide_border=true&bg_color=00000000" width="100%" alt="Contribution Graph"/>
-
-<br/><br/>
-
+<!-- GitHub Contribution Snake: Native relative path, 100% reliable across networks -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/lwayne7/lwayne7/output/github-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img alt="github-snake" src="./assets/github-snake-dark.svg" width="100%" />
 </picture>
 
 </div>
@@ -220,10 +212,6 @@ const engineer = {
 
 <br/><br/>
 
-<sub><i>"Engineering excellence comes from verification, not assumption." · 感谢您的访问与关注！</i></sub>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="./assets/footer-banner.svg" alt="Footer Banner" width="100%"/>
 
 </div>
